@@ -11,17 +11,18 @@
 
 <ol>
     <li> Health Care Dollars - Python.ipynb: the analysis of Open Payments data</li>
-    <li> Python code used to generate the data underlying the analysis, including:</li>
+    <li> OpenPaymentsCode.py - Python code used to generate the data underlying 
+         the analysis.  The functions therein are briefly described below:</li>
 <ul>
-<li> generateDoctors.py - takes the data from CMS' Physician Profile Supplement
+<li> generateDoctors - takes the data from CMS' Physician Profile Supplement
     and generates an extract of physician identifying information.</li>
-<li> generatePayments.py - loads the General Payments data sets and transforms
+<li> generatePayments - loads the General Payments data sets and transforms
     the data as needed.</li>
-<li> generatePayors.py - generates an extract of all the companies making payments.</li>
-<li> generatePivot.py - takes the data created by generatePayments.py and creates a
+<li> generatePayors - generates an extract of all the companies making payments.</li>
+<li> generatePivot - takes the data created by generatePayments and creates a
     pivot of all the data.</li>
-    <li> visualCode.py - generates all the visualizations present in the analysis.</li>
 </ul>
+    <li> visualCode.py - generates all the visualizations present in the analysis.</li>
 </ol>
 
              
